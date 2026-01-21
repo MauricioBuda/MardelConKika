@@ -1,6 +1,6 @@
 function startCountdown() {
-  const targetDate = new Date("2025-11-29T07:00:00");
-  const originalTitle = "Mendoza 2025 ♥"; // título original
+  const targetDate = new Date("2026-02-14T07:00:00");
+  const originalTitle = "Mardel con kika 2026 ♥"; // título original
 
   const updateCountdown = () => {
     const now = new Date().getTime();
@@ -28,9 +28,9 @@ function startCountdown() {
     const titleEl = document.getElementById("countdown-title");
 
     if (days <= 1) {
-      titleEl.innerText = "Ya nos vamos pitucaa!!";
+      titleEl.innerText = "Daleeeeeeeeeee!!";
     } else if (days <= 2) {
-      titleEl.innerText = "Menos de dos dias pituca mia!!";
+      titleEl.innerText = "Doooooooooos!";
     } else if (days <= 3) {
       titleEl.innerText = "Treeees!!";
     } else if (days <= 4) {
@@ -38,15 +38,9 @@ function startCountdown() {
     }else if (days <= 5) {
       titleEl.innerText = "Cinco diaaaaas!!";
     }else if (days <= 7) {
-      titleEl.innerText = "Menos de una semana la concha de la gorra!!";
-    } else if (days <= 14) {
-      titleEl.innerText = "Menos de dos semanas pituca!!";
-    } else if (days <= 21) {
-      titleEl.innerText = "Tres semanitas jejeje ♥";
-    } else if (days <= 30) {
-      titleEl.innerText = "Menos de un mes!!";
+      titleEl.innerText = "Menos de una semana perras!!";
     } else {
-      titleEl.innerText = "Paciencia ♥";
+      titleEl.innerText = "Paciencia 🙄";
     }
 
     // Si la pestaña está inactiva, mostrar contador en el título

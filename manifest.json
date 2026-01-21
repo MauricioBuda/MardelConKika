@@ -1,14 +1,14 @@
 {
-  "name": "Mendoza ♥",
-  "short_name": "Mendoza",
+  "name": "Mardel con Kika ♥",
+  "short_name": "Mardel con Kika",
   "icons": [
     {
-      "src": "/Mendoza/public/img/Montana192.png",
+      "src": "/public/img/Lobo192.jpg",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/Mendoza/public/img/Montana512.png",
+      "src": "/public/img/Lobo512.jpg",
       "sizes": "512x512",
       "type": "image/png"
     }
