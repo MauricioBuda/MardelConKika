@@ -139,6 +139,11 @@
         scroll-margin-top: 14vh;
     }
 
+.actividades{
+  justify-content: flex-start;
+  gap: 1.2vh;
+}
+
 .div-calendario {
     display: grid; /* usamos grid en lugar de flex */
     grid-template-columns: repeat(2fr, 1fr, 2fr, 1fr, 2fr); /* 5 columnas */
