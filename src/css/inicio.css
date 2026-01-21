@@ -45,6 +45,17 @@
 
    @media screen and (max-width: 524px) {
 
+.inicio {
+  display: flex;
+  background-image: url(./../../public/img/Rambla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
     .nav-navbar{
     position: fixed;
     z-index: 2;

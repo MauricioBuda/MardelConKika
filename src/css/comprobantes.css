@@ -82,17 +82,18 @@
 .card h2, .card p {
     font-size: 4.2vw;
     margin-bottom: 1vh;
-    font-weight: 100!important;
 }
     
 
 .detalle-card div ,
-.detalle-card a {
+.detalle-card a,
+.detalle-card p {
     font-weight: 100!important;
     margin: 0 auto 1vw auto;
     width: 90%;
     padding: 3px;
     font-size: 3.2vw !important;
+    font-weight: bold!important;
 }
 
 
